@@ -16,7 +16,7 @@ function App() {
   const [errorMessage, setErrorMessage] = useState("");
   const [cameraError, setCameraError] = useState(false);
 
-  const API_URL = "http://localhost:5000/api/sensor";
+  const API_URL = "http://157.230.47.99:5000/api/sensor";
 
   // URL ESP32-CAM
   const CAMERA_URL = "http://192.168.0.106:81/stream";
